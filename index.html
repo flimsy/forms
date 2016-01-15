@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+	<script src="javascript/jquery-2.2.0.js"></script>
+	<script src="javascript/app.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1 id="results"></h1>
+	<div class="wrapper">
+	<h1 id="notification">Please fill out this form!</h1>
+	<form action="#" method="POST" style="padding-left: 200px">
+		Date : <input type="text" onkeypress="return keyDown(event)" name="date" id="date" value="mm/dd/yyyy">
+
+		UserName : <input type="text" onkeypress="return keyDown(event)" name="firstname" id="firstname" required>
+
+		Password : <input type="password" onkeypress="return keyDown(event)" name="password" id="password">
+
+		<input type="submit">
+	</form>
+	</div>
+</body>
+</html>
